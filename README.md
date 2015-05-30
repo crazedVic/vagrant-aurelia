@@ -16,7 +16,9 @@ This was actually pretty easy, and should work for everyone pretty much without 
 # Windows
 
 Requirements:
-  You should run all vagrant commands from a cmd line with admistrative privileges.   If you are running Vagrant 1.7.2 or lower, you will need to apply a fix to your Vagant install in order for this to work.  Your install location may vary but in the default installation, you just need to modify the file: 
+  You should run all vagrant commands from a cmd line with admistrative privileges.  If you decide not to, for whatever reason, you will need to uncomment a line in the script.sh that will force npm to install with --no-bin-links.  I wouldn't advise this, as you never know what else that might break down the road.
+  
+  If you are running Vagrant 1.7.2 or lower, you will need to apply a fix to your Vagant install in order for this to work.  Your install location may vary but in the default installation, you just need to modify the file: 
   
   C:\HashiCorp\Vagrant\embedded\gems\gems\vagrant-1.7.2\plugins\providers\virtualbox\driver\version_4_3.rb
   
