@@ -1,7 +1,7 @@
 # vagrant-aurelia
 Get up and running with the new aurelia.io javascript framework with Vagrant (http://aurelia.io)
 
-Getting Started
+# Getting Started
 
 Things you should know:
 
@@ -9,10 +9,10 @@ This was built and tested using Vagrant 1.7.2 on a Windows 7 host and the latest
 
 The npm install script would occasionally fail on the default 512mb memory configuration, so I upped it to 1024mb, and this seems to be enough to get things working.
 
-MAC/Linux
+# MAC/Linux
 
 
-Windows
+# Windows
 
 Requirements:
   You should run all vagrant commands from a cmd line with admistrative privileges.
