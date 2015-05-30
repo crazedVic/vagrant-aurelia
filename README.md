@@ -7,7 +7,7 @@ This was built and tested using Vagrant 1.7.2 and VirtualBox 4.3.24 on a Windows
 
 The npm install script would occasionally fail on the default 512mb memory configuration, so I upped it to 1024mb, and this seems to be enough to get things working.
 
-You will need to edit the script.sh file and put in your github credentials, otherwise this installation will fail.
+****You will need to edit the script.sh file and put in your github credentials, otherwise this installation will fail.****
 
 The script installs the Aurelia skeleton project into /vagrant/project, which maps to ./project in your vagrant folder right next to your VagrantFile and script.sh.  You can edit the skeleton via this folder on your host machine using your favorite editor. 
 
