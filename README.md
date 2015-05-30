@@ -9,6 +9,8 @@ The npm install script would occasionally fail on the default 512mb memory confi
 
 You will need to edit the script.sh file and put in your github credentials, otherwise this installation will fail.
 
+The script installs the Aurelia skeleton project into /vagrant/project, which maps to ./project in your vagrant folder right next to your VagrantFile and script.sh.  You can edit the skeleton via this folder on your host machine using your favorite editor. 
+
 # MAC/Linux
 
 This was actually pretty easy, and should work for everyone pretty much without a hitch, as the host system actually supports symlinks that are longer than 160 characters, etc.
@@ -30,3 +32,6 @@ Requirements:
  
  '\\\\?\\' + folder[:hostpath].gsub(/[\/\\]/,'\\')]
   
+# Final notes
+
+  For convenience this vagrant machine has been configured to automatically launch gulp watch when you start an ssh session.  Also npm has been configured to install global modules to the vagrant home directly, just to keep everything nice and tidy.  So essentially you would just need to install the latest version of virtualbox, the latest version of vagrant, grab the VagrantFile and script.sh from here, throw them in a folder, open a console into that folder, and type vagrant up, let it do its thing, then type vagrant ssh, and then open a browser to localhost:9000 on your host and you should see the aurelia skeleton in action.  
