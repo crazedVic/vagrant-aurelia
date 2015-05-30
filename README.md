@@ -31,6 +31,8 @@ Requirements:
  with 
  
  '\\\\?\\' + folder[:hostpath].gsub(/[\/\\]/,'\\')]
+ 
+ Thanks to https://harvsworld.com/2015/how-to-fix-npm-install-errors-on-vagrant-on-windows-because-the-paths-are-too-long/ for this life saving tip!
   
 # Final notes
 
