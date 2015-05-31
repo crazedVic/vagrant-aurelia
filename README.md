@@ -42,5 +42,7 @@ Requirements:
 
   Useful utility to suppress tty errors: http://foo-o-rama.com/vagrant--stdin-is-not-a-tty--fix.html
   Getting started with aurelia.io: http://aurelia.io/get-started.html
+  More about using netrc to store github credentials: https://www.labkey.org/wiki/home/Documentation/page.view?name=netrc
+  
   
   
