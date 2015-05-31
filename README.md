@@ -40,4 +40,7 @@ Requirements:
   
 # Footnotes
 
-  Useful utility used to suppress tty errors: http://foo-o-rama.com/vagrant--stdin-is-not-a-tty--fix.html
+  Useful utility to suppress tty errors: http://foo-o-rama.com/vagrant--stdin-is-not-a-tty--fix.html
+  Getting started with aurelia.io: http://aurelia.io/get-started.html
+  
+  
