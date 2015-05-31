@@ -13,7 +13,7 @@ The script installs the Aurelia skeleton project into /vagrant/project, which ma
 
 # MAC/Linux
 
-This was actually pretty easy, and should work for everyone pretty much without a hitch, as the host system actually supports symlinks that are longer than 160 characters, etc.
+This was actually pretty straightforward, and should work for everyone pretty much without a hitch, as the host system actually supports symlinks that are longer than 160 characters, etc.
 
 # Windows
 
