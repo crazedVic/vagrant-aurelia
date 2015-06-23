@@ -33,6 +33,8 @@ Requirements:
  
  '\\\\\\\\?\\\\' + folder[:hostpath].gsub(/[\/\\\\]/,'\\\\')]
  
+ (do not view this string in edit mode as it has 2 \ for each \, otherwise it does not display properly in the browser)
+ 
  Thanks to https://harvsworld.com/2015/how-to-fix-npm-install-errors-on-vagrant-on-windows-because-the-paths-are-too-long/ for this life saving tip!
   
 # Final notes
